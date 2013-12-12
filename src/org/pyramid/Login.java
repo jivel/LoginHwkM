@@ -11,7 +11,7 @@ import java.sql.ResultSet;
 
 public class Login {
 
-	private final String YUAREL = "jdbc:mysql://192.168.1.90:3306/tecbd";
+	private final String YUAREL = "jdbc:mysql://URL:3306/tecbd";
 	private final String PSSW = "app";
 	private final String USR = "proyectohawk";
 	private final String PSTM = "SELECT nocontrol, Nombre, nip FROM alumno WHERE nocontrol = '";
