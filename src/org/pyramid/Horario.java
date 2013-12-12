@@ -54,6 +54,8 @@ public class Horario {
 					c++;
 				}
 				v++;
+				/*lo se falta cerrar la conexión de la B.D. este no es el codigo final :)
+				no te iba a dar  todo hecho ;)*/
 
 			}
 			elbueno = datos[pos];
