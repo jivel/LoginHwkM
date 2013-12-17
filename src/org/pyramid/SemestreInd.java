@@ -13,7 +13,7 @@ import com.mysql.jdbc.ResultSetMetaData;
 
 public class SemestreInd {
 
-	private final String YUAREL = "jdbc:mysql://192.168.1.90:3306/tecbd";
+	private final String YUAREL = "jdbc:mysql://SOCKET/tecbd";
 	private final String PSSW = "app";
 	private final String USR = "proyectohawk";
 	private final String PSTM = "SELECT Nombre,Prom FROM materia NATURAL JOIN cursando WHERE cursando.nocontrol = '";
