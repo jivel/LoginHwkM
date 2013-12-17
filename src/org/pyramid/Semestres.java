@@ -13,7 +13,7 @@ public class Semestres {
 	public String[] Kardex(String nocontrol) {
 
 		String[] datos;
-		final String YUAREL = "jdbc:mysql://192.168.1.90:3306/tecbd";
+		final String YUAREL = "jdbc:mysql://SOCKET/tecbd";
 		final String PSSW = "app";
 		final String USR = "proyectohawk";
 		final String PSTM = "SELECT DISTINCT Sem FROM cursando WHERE nocontrol = '";
